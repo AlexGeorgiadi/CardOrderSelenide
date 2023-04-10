@@ -1,0 +1,1 @@
+# CardOrderSelenide [![Build status](https://ci.appveyor.com/api/projects/status/d31tv55eetj6ygv8/branch/master?svg=true)](https://ci.appveyor.com/project/AlexGeorgiadi/cardorderselenide/branch/master)
