@@ -16,9 +16,9 @@ class CardOrderSelenideTest {
         Configuration.holdBrowserOpen = true;
         open("http://localhost:9999");
         $("[data-test-id=city] input").setValue("Нальчик");
-        $("[data-test-id=date] input").sendKeys(Keys.COMMAND + "a");
+        $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
         $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
-        $("[data-test-id=date] input").setValue(Date.setDate(6));
+        $("[data-test-id=date] input").setValue(Date.setDate(3));
         $("[data-test-id=name] input").setValue("Георгиади Алексей");
         $("[data-test-id=phone] input").setValue("+79614660837");
         $("[data-test-id=agreement]").click();
