@@ -18,7 +18,7 @@ class CardOrderSelenideTest {
         Configuration.holdBrowserOpen = true;
         open("http://localhost:9999");
         $("[data-test-id=city] input").setValue("Нальчик");
-        $("[data-test-id=date] input").sendKeys(Keys.COMMAND + "a");
+        $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
         $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(planningDate);
         $("[data-test-id=name] input").setValue("Георгиади Алексей");
